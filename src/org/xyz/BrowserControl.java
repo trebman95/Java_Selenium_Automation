@@ -12,7 +12,7 @@ public class BrowserControl {
 	WebDriver driver; 
 	
 	@Test
-	public void dropdownlist_calendar() throws Exception {
+	public void dropdown_newaccount() throws Exception {
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/r.php");
 		
@@ -37,7 +37,8 @@ public class BrowserControl {
 		driver.findElement(By.name("reg_email__")).sendKeys("jamalweezy@gmail.com");
 		driver.findElement(By.name("reg_passwd__")).sendKeys("passwrd5678");
 		
-		driver.findElement(By.name("websubmit")).click();
+		//driver.findElement(By.name("websubmit")).click();
+		
 	}
 	
 	@Test(enabled=false)

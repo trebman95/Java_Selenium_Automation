@@ -1,5 +1,7 @@
 package org.xyz;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,11 +16,17 @@ public class FetchDataRuntime {
 	public void checkthefields() throws Exception {
 		driver = new ChromeDriver();
 		
+		
 		String expURL = "https://www.facebook.com/";
 		driver.get(expURL);
+		//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		
 		String actualURL = driver.getCurrentUrl();
 		System.out.println(actualURL); // Fetch URL from the browser
-		Assert.assertEquals(actualURL, expURL);
+		Assert.assertEquals(actualURL, expURL);// Hard Assertion
+		// SoftAssert sa = new SoftAssert();  - Soft Assertion
+		//sa.assertEquals(actualURL, expURL);
 		
 		String expLoginPage = "Facebook - log in or sign up";
 		String actualLoginPage = driver.getTitle();
