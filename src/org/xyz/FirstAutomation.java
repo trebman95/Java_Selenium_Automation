@@ -24,14 +24,14 @@ public class FirstAutomation {
 	
 	@Test
 	public void validate_loginfunct() {
-		driver.findElement(By.id("email")).sendKeys("user1");
-		driver.findElement(By.id("pass")).sendKeys("pass4567");
+		driver.findElement(By.id("email")).sendKeys("user1"); // Type username
+		driver.findElement(By.id("pass")).sendKeys("pass4567"); // Type password
 		driver.findElement(By.cssSelector("[type='submit']")).click();
 	}
 	
 	@Test
 	public void validate_signupfunct() {
-		driver.findElement(By.linkText("Create new account")).click();
+		driver.findElement(By.linkText("Create new account")).click(); // Click "Create new account" button
 		driver.findElement(By.name("firstname")).sendKeys("Jamal");
 		driver.findElement(By.name("lastname")).sendKeys("Weezy");
 	}
