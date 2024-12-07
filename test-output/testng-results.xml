@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T21:13:06 EST" name="Default suite" finished-at="2024-12-03T21:13:11 EST" duration-ms="4442">
+  <suite started-at="2024-12-06T19:44:04 EST" name="Suite" finished-at="2024-12-06T19:44:17 EST" duration-ms="13444">
     <groups>
     </groups>
-    <test started-at="2024-12-03T21:13:06 EST" name="Default test" finished-at="2024-12-03T21:13:11 EST" duration-ms="4442">
-      <class name="org.xyz.BrowserControl">
-        <test-method signature="dropdownlist_calendar()[pri:0, instance:org.xyz.BrowserControl@6adbc9d]" started-at="2024-12-03T21:13:06 EST" name="dropdownlist_calendar" finished-at="2024-12-03T21:13:11 EST" duration-ms="4406" status="PASS">
+    <test started-at="2024-12-06T19:44:04 EST" name="Test" finished-at="2024-12-06T19:44:17 EST" duration-ms="13444">
+      <class name="org.xyz.HandlekbMsWi">
+        <test-method signature="handleAlerts()[pri:0, instance:org.xyz.HandlekbMsWi@399c4be1]" started-at="2024-12-06T19:44:04 EST" name="handleAlerts" finished-at="2024-12-06T19:44:11 EST" duration-ms="7400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdownlist_calendar -->
-      </class> <!-- org.xyz.BrowserControl -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- handleAlerts -->
+        <test-method signature="handleFrames()[pri:0, instance:org.xyz.HandlekbMsWi@399c4be1]" started-at="2024-12-06T19:44:11 EST" name="handleFrames" finished-at="2024-12-06T19:44:17 EST" duration-ms="5992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleFrames -->
+      </class> <!-- org.xyz.HandlekbMsWi -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

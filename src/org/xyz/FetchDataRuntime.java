@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+//import org.testng.asserts.SoftAssert;
 
 public class FetchDataRuntime {
 
@@ -25,7 +26,7 @@ public class FetchDataRuntime {
 		String actualURL = driver.getCurrentUrl();
 		System.out.println(actualURL); // Fetch URL from the browser
 		Assert.assertEquals(actualURL, expURL);// Hard Assertion
-		// SoftAssert sa = new SoftAssert();  - Soft Assertion
+		//SoftAssert sa = new SoftAssert();  // Soft Assertion
 		//sa.assertEquals(actualURL, expURL);
 		
 		String expLoginPage = "Facebook - log in or sign up";
@@ -44,7 +45,13 @@ public class FetchDataRuntime {
 		Assert.assertEquals(actual_login_link, exp_login_link);
 		
 		System.out.println(driver.findElement(By.name("login")).getLocation());// Location coordinates of the element
-		System.out.println(driver.getPageSource()); // Fetch complete HTML page
+		//System.out.println(driver.getPageSource()); // Fetch complete HTML page
+		
+		CaptureScreenshot.test_results(driver, "checkthefields");
+		
+		//sa.assertAll();
+		
+		
 	}
 	
 }

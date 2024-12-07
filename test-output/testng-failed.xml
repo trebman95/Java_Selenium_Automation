@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.xyz.FetchDataRuntime">
+      <class name="org.xyz.HandlekbMsWi">
         <methods>
-          <include name="checkthefields"/>
+          <include name="handleFrames"/>
         </methods>
-      </class> <!-- org.xyz.FetchDataRuntime -->
+      </class> <!-- org.xyz.HandlekbMsWi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

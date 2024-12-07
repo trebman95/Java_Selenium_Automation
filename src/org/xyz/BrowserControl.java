@@ -1,5 +1,7 @@
 package org.xyz;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +17,8 @@ public class BrowserControl {
 	public void dropdown_newaccount() throws Exception {
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/r.php");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		
 		
 		driver.findElement(By.name("firstname")).sendKeys("Jamal");
 		driver.findElement(By.name("lastname")).sendKeys("Carmichael");

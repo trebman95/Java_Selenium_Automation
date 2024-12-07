@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.392">
+  <properties />
+  
+  
+            <testcase name="handleFrames" time="5.992" classname="org.xyz.HandlekbMsWi" />
+                <testcase name="handleAlerts" time="7.400" classname="org.xyz.HandlekbMsWi" />
+      
+</testsuite>

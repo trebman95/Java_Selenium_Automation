@@ -21,6 +21,11 @@
   		<artifactId>poi</artifactId>
   		<version>5.3.0</version>
   	</dependency>
+  	<dependency>
+    	<groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>2.18.0</version>
+	</dependency>
 	<dependency>
     	<groupId>org.apache.poi</groupId>
     	<artifactId>poi-ooxml</artifactId>
@@ -36,6 +41,17 @@
     	<groupId>org.seleniumhq.selenium</groupId>
     	<artifactId>selenium-java</artifactId>
     	<version>4.27.0</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.uncommons</groupId>
+    	<artifactId>reportng</artifactId>
+    	<version>1.1.4</version>
+    	<scope>test</scope>
+	</dependency>
+	<dependency>
+    	<groupId>com.google.inject</groupId>
+    	<artifactId>guice</artifactId>
+    	<version>7.0.0</version>
 	</dependency>
   </dependencies>
 </project>
