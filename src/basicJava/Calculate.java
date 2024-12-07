@@ -2,14 +2,14 @@ package basicJava;
 
 public class Calculate {
 	
-	public void sum() {
+	public void sum() { 
 		int a = 10;
 		int b = 20;
 		int c = a + b;
 		System.out.println("The sum of a & b: " + c);
 	}
 	
-	public Calculate() {  // Constructor
+	public Calculate() {  // Constructor & Overloading
 		int a = 20;
 		int b = 30;
 		int c = a + b;
