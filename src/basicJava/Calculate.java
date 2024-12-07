@@ -9,6 +9,19 @@ public class Calculate {
 		System.out.println("The sum of a & b: " + c);
 	}
 	
+	public Calculate() {  // Constructor
+		int a = 20;
+		int b = 30;
+		int c = a + b;
+		System.out.println("Const - is sum of a&b: " + c);
+	}
+	
+	public Calculate(int a) {  // Constructor
+		int b = 30;
+		int c = a + b;
+		System.out.println("Const - is sum of a&b: " + c);
+	}
+	
 	
 	public int add(int a, int b) {
 		int c = a + b;
