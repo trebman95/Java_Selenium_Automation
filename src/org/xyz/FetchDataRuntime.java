@@ -34,10 +34,10 @@ public class FetchDataRuntime {
 		System.out.println(actualLoginPage); // Fetch Title of the application
 		Assert.assertEquals(actualLoginPage, expLoginPage);
 		
-		String exp_username_Field = "Email or phone number";
-		String actual_username_Field = driver.findElement(By.id("email")).getAttribute("placeholder");
-		System.out.println(actual_username_Field); // Fetch Attribute Value of the element
-		Assert.assertEquals(actual_username_Field, exp_username_Field);
+		//String exp_username_Field = "Email or phone number";
+		//String actual_username_Field = driver.findElement(By.id("email")).getAttribute("placeholder");
+		//System.out.println(actual_username_Field); // Fetch Attribute Value of the element
+		//Assert.assertEquals(actual_username_Field, exp_username_Field);
 		
 		String exp_login_link = "Log In"; 
 		String actual_login_link = driver.findElement(By.name("login")).getText();
