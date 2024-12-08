@@ -28,6 +28,6 @@ public class FirstClass { // Create a Class
 		FirstClass myObj = new FirstClass();  // Create an Object
 		myObj.printdata();
 		myObj.printValue();
-		
+		DemoStaticKeyword.val(); // Static from DemoStaticKeyword
 	}
 }

@@ -1,6 +1,6 @@
 package oopsConcept;
 
-public class QA1 {
+public final class QA1F { // Final class - Restricted from inheritance
 	
 	int x = 550;
 	
@@ -19,7 +19,7 @@ public class QA1 {
 	}
 	
 	public static void main(String[] args) {
-		QA1 q1 = new QA1();
+		QA1F q1 = new QA1F();
 		q1.sum(20, 30);
 		q1.sum(10, 20, 30);
 		
