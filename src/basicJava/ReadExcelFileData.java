@@ -18,7 +18,7 @@ public class ReadExcelFileData {
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		XSSFSheet sh1 = wb.getSheet("datasheet");
 		
-		int nr = sh1.getPhysicalNumberOfRows(); // 3 numbers of rows
+		int nr = sh1.getPhysicalNumberOfRows(); // 2 numbers of rows
 		System.out.println(nr);	
 		
 		for(int i = 0; i < nr; i++) {
