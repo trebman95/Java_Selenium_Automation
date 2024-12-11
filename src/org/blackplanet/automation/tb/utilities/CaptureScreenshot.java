@@ -1,4 +1,4 @@
-package org.xyz;
+package org.blackplanet.automation.tb.utilities;
 
 import java.io.File;
 
@@ -18,9 +18,7 @@ public class CaptureScreenshot {
 		File f = ts.getScreenshotAs(OutputType.FILE); // Saving the file
 		
 		File fd = new File("./TestResults/" + name + ".png"); // Store the file in this location
-		
-		//String xyz = "Java";
-		//System.out.println("Print the value" + xyz + "this is output");
+	
 		
 		FileUtils.copyFile(f, fd);
 	}
