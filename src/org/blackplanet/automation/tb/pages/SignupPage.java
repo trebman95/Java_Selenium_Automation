@@ -21,10 +21,10 @@ public class SignupPage {
 		driver.findElement(By.id(ReadPropertiesFile.element("signup_username_id"))).sendKeys(uname);	
 	}
 	
-	public void enter_email(String email) throws Exception { // fill in username
+	public void enter_email(String email) throws Exception { // fill in email address
 		driver.findElement(By.name(ReadPropertiesFile.element("signup_emailaddress_name"))).sendKeys(email);	
 	}
-	public void enter_password(String pword) throws Exception { // fill in username
+	public void enter_password(String pword) throws Exception { // fill in password
 		driver.findElement(By.name(ReadPropertiesFile.element("signup_password_name"))).sendKeys(pword);	
 	}
 
