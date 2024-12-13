@@ -55,7 +55,7 @@ public class InitiateBrowser {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	
-	@AfterMethod(enabled=false)
+	@AfterMethod
 	public void closebrowser() {
 	    
 		driver.quit();		
