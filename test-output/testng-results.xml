@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T22:36:07 EST" name="Default suite" finished-at="2024-12-12T22:36:15 EST" duration-ms="7935">
+  <suite started-at="2024-12-12T23:04:54 EST" name="Default suite" finished-at="2024-12-12T23:05:10 EST" duration-ms="16718">
     <groups>
     </groups>
-    <test started-at="2024-12-12T22:36:07 EST" name="Default test" finished-at="2024-12-12T22:36:15 EST" duration-ms="7935">
-      <class name="org.blackplanet.automation.tb.testcases.SignupScenario">
-        <test-method is-config="true" signature="launchBrower()[pri:0, instance:org.blackplanet.automation.tb.testcases.SignupScenario@235834f2]" started-at="2024-12-12T22:36:07 EST" name="launchBrower" finished-at="2024-12-12T22:36:12 EST" duration-ms="4987" status="PASS">
+    <test started-at="2024-12-12T23:04:54 EST" name="Default test" finished-at="2024-12-12T23:05:10 EST" duration-ms="16718">
+      <class name="org.blackplanet.automation.tb.testcases.LoginScenario_DDF">
+        <test-method is-config="true" signature="launchBrower()[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario_DDF@515c6049]" started-at="2024-12-12T23:04:54 EST" name="launchBrower" finished-at="2024-12-12T23:05:00 EST" duration-ms="6038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrower -->
-        <test-method signature="tc02_validate_validcred_signupfunct()[pri:0, instance:org.blackplanet.automation.tb.testcases.SignupScenario@235834f2]" started-at="2024-12-12T22:36:12 EST" name="tc02_validate_validcred_signupfunct" finished-at="2024-12-12T22:36:15 EST" duration-ms="2915" status="PASS">
+        <test-method signature="tc01_vloginfunct(java.lang.String,java.lang.String)[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario_DDF@515c6049]" started-at="2024-12-12T23:05:00 EST" name="tc01_vloginfunct" data-provider="ddf_data" finished-at="2024-12-12T23:05:00 EST" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc02_validate_validcred_signupfunct -->
-      </class> <!-- org.blackplanet.automation.tb.testcases.SignupScenario -->
+        </test-method> <!-- tc01_vloginfunct -->
+        <test-method is-config="true" signature="launchBrower()[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario_DDF@515c6049]" started-at="2024-12-12T23:05:00 EST" name="launchBrower" finished-at="2024-12-12T23:05:05 EST" duration-ms="4610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrower -->
+        <test-method signature="tc01_vloginfunct(java.lang.String,java.lang.String)[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario_DDF@515c6049]" started-at="2024-12-12T23:05:05 EST" name="tc01_vloginfunct" data-provider="ddf_data" finished-at="2024-12-12T23:05:05 EST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_vloginfunct -->
+        <test-method is-config="true" signature="launchBrower()[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario_DDF@515c6049]" started-at="2024-12-12T23:05:05 EST" name="launchBrower" finished-at="2024-12-12T23:05:10 EST" duration-ms="4909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrower -->
+        <test-method signature="tc01_vloginfunct(java.lang.String,java.lang.String)[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario_DDF@515c6049]" started-at="2024-12-12T23:05:10 EST" name="tc01_vloginfunct" data-provider="ddf_data" finished-at="2024-12-12T23:05:10 EST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_vloginfunct -->
+      </class> <!-- org.blackplanet.automation.tb.testcases.LoginScenario_DDF -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

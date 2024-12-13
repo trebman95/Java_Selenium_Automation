@@ -48,6 +48,7 @@ public class SignupPage {
 	
 	public void click_dob_month() throws Exception {
 		driver.findElement(By.id(ReadPropertiesFile.element("signup_birthdaymonthdropdown_id"))).click();
+	
 	}
 	
 	public void month_choose() throws Exception {
