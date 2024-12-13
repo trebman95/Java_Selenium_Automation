@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.blackplanet.automation.tb.testcases.LoginScenario">
+      <class name="org.blackplanet.automation.tb.testcases.SignupScenario">
         <methods>
-          <include name="tc01_validate_validcred_loginfunct"/>
           <include name="launchBrower"/>
+          <include name="tc02_validate_validcred_signupfunct"/>
           <include name="closebrowser"/>
         </methods>
-      </class> <!-- org.blackplanet.automation.tb.testcases.LoginScenario -->
+      </class> <!-- org.blackplanet.automation.tb.testcases.SignupScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

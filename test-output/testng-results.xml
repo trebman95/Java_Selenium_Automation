@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-10T20:14:12 EST" name="Default suite" finished-at="2024-12-10T20:14:23 EST" duration-ms="10112">
+  <suite started-at="2024-12-12T22:36:07 EST" name="Default suite" finished-at="2024-12-12T22:36:15 EST" duration-ms="7935">
     <groups>
     </groups>
-    <test started-at="2024-12-10T20:14:12 EST" name="Default test" finished-at="2024-12-10T20:14:23 EST" duration-ms="10112">
-      <class name="org.blackplanet.automation.tb.testcases.LoginScenario">
-        <test-method is-config="true" signature="launchBrower()[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario@235834f2]" started-at="2024-12-10T20:14:12 EST" name="launchBrower" finished-at="2024-12-10T20:14:20 EST" duration-ms="7352" status="PASS">
+    <test started-at="2024-12-12T22:36:07 EST" name="Default test" finished-at="2024-12-12T22:36:15 EST" duration-ms="7935">
+      <class name="org.blackplanet.automation.tb.testcases.SignupScenario">
+        <test-method is-config="true" signature="launchBrower()[pri:0, instance:org.blackplanet.automation.tb.testcases.SignupScenario@235834f2]" started-at="2024-12-12T22:36:07 EST" name="launchBrower" finished-at="2024-12-12T22:36:12 EST" duration-ms="4987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrower -->
-        <test-method signature="tc01_validate_validcred_loginfunct()[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario@235834f2]" started-at="2024-12-10T20:14:20 EST" name="tc01_validate_validcred_loginfunct" finished-at="2024-12-10T20:14:21 EST" duration-ms="1242" status="PASS">
+        <test-method signature="tc02_validate_validcred_signupfunct()[pri:0, instance:org.blackplanet.automation.tb.testcases.SignupScenario@235834f2]" started-at="2024-12-12T22:36:12 EST" name="tc02_validate_validcred_signupfunct" finished-at="2024-12-12T22:36:15 EST" duration-ms="2915" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc01_validate_validcred_loginfunct -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:org.blackplanet.automation.tb.testcases.LoginScenario@235834f2]" started-at="2024-12-10T20:14:21 EST" name="closebrowser" finished-at="2024-12-10T20:14:23 EST" duration-ms="1479" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- org.blackplanet.automation.tb.testcases.LoginScenario -->
+        </test-method> <!-- tc02_validate_validcred_signupfunct -->
+      </class> <!-- org.blackplanet.automation.tb.testcases.SignupScenario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
