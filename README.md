@@ -48,8 +48,8 @@ Created a minimum of 15 test cases for any of the features. Consisting of positi
 <img src="https://i.imgur.com/xBHqyXu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Start Regression testing by executing up to 60 test cases across other test cases that we created from my team and corrected any of my test cases that were in the "Retest" status from my team :  <br/>
-<img src="https://i.imgur.com/m47ArW2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+This code defines a utility class named CaptureScreenshot for taking and saving screenshots of a web page during automated tests using Selenium WebDriver. Essentially, this utility makes it easy to save visual evidence of test execution :  <br/>
+<img src="https://i.imgur.com/6GNpdgJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Used Android Studio for mobile application to execute any test cases on the core functionalities :  <br/>
