@@ -34,13 +34,14 @@ In this test automation suite, built with Selenium and Eclipse, justifies the ke
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Created a checklist for the app's main functionality, focusing on accessing the user's account and tracking daily user activity. Then, I conducted a Smoke Test with the intent of creating bug tickets in Jira if any checks failed: <br/>
-<img src="https://i.imgur.com/kC8K0Ri.png" height="80%" width="80%" alt="Administrator Account"/>
-<img src="https://i.imgur.com/5kIMUl8.png" height="80%" width="80%" alt="Administrator Account"/>
+This Java code a defined class as TestData Generator helps automate repetitive test runs with different input values from the properties file, 
+making it easier to validate various scenarios: <br/>
+<img src="https://i.imgur.com/Gn474Xt.jpg" height="80%" width="80%" alt="Administrator Account"/>
 <br />
 <br />
-Began the test case execution using TestRail. Created new test runs and select the proper status for each test case :  <br/>
-<img src="https://i.imgur.com/YrAXoo9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Validating that the key user is able to input data and making sure that the login button works efficiently. :  <br/>
+<img src="https://i.imgur.com/1RuDaDg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VWvmpWB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Created a minimum of 15 test cases for any of the features. Consisting of positive and negative test cases: <br/>
