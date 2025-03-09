@@ -44,8 +44,10 @@ Validating that the key user is able to input data and making sure that the logi
 <img src="https://i.imgur.com/VWvmpWB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Created a minimum of 15 test cases for any of the features. Consisting of positive and negative test cases: <br/>
-<img src="https://i.imgur.com/xBHqyXu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Validating that the key user is able to input data for the sign up page clicking on the dropdowns to make sure that there
+are no errors for selecting choices on the dropdowns. <br/>
+<img src="https://i.imgur.com/9girf1H.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Zj6ghOi.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 This code defines a utility class named CaptureScreenshot for taking and saving screenshots of a web page during automated tests using Selenium WebDriver. Essentially, this utility makes it easy to save visual evidence of test execution :  <br/>
