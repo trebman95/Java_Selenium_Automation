@@ -56,6 +56,7 @@ This code defines a utility class named CaptureScreenshot for taking and saving 
 <br />
 Used Android Studio for mobile application to execute any test cases on the core functionalities :  <br/>
 <img src="https://i.imgur.com/HkXiLq7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lh7XYUE.mp4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Using ChromeDev Tools to analyze API Request and reporting any bug reports to the Dev team for review. Lastly, performed bug triage to ensure the completeness of the bug report:  <br/>
