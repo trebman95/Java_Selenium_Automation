@@ -54,12 +54,7 @@ This code defines a utility class named CaptureScreenshot for taking and saving 
 <img src="https://i.imgur.com/6GNpdgJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Used Android Studio for mobile application to execute any test cases on the core functionalities :  <br/>
-<img src="https://i.imgur.com/HkXiLq7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/lh7XYUE.mp4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Using ChromeDev Tools to analyze API Request and reporting any bug reports to the Dev team for review. Lastly, performed bug triage to ensure the completeness of the bug report:  <br/>
+After running these cases using TestNG, we are able to automate the login and sign up as a key user for creating a new profile as well as logging in without any errors. These test cases did pass for the test scenarios:  <br/>
 <img src="https://i.imgur.com/em4CHtE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/BXjpnsv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
