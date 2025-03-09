@@ -55,8 +55,8 @@ This code defines a utility class named CaptureScreenshot for taking and saving 
 <br />
 <br />
 After running these cases using TestNG, we are able to automate the login and sign up as a key user for creating a new profile as well as logging in without any errors. These test cases did pass for the test scenarios:  <br/>
-<img src="https://i.imgur.com/em4CHtE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/BXjpnsv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/svluwAJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BrC9Px6.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
