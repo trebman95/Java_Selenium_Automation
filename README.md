@@ -1,7 +1,7 @@
-<h1>BlackPlanet.com - Automation</h1>
+<h1>BlackPlanet: Test Automation</h1>
 
 <h2>Description</h2>
-In this project, I will walkthrough my responsibilities as a Software QA Engineer for Reelly. Performed functional, UI, smoke and regression testing. Also participated in daily stand-ups and sprint planning using Agile methodologies. Reelly is a web/mobile app that consolidates Dubai developer projects, enabling agents to quickly create personalized property offers and track buyer behavior analytics. Executing test cases and tracking bug issues in Jira were very interesting task to learn as I know that they will be very essential skills towards my career in software quality assurance.
+In this test automation suite, built with Selenium and Eclipse, justifies the key user interactions on the Login page of the BlackPlanet Social Media webpage. It includes tests for ensuring that the key user does not come across any errors for a new user to create a profile on the Sign Up page as well. Each test ensures the correct page elements are displayed, with browser sessions set up and closed automatically before and after execution
 <img src="https://i.imgur.com/R8pSLW1.png" height="80%" width="80%" alt="Administrator Account"/>
 <img src="https://i.imgur.com/YML9xny.png" height="80%" width="80%" alt="Administrator Account"/>
 <br />
