@@ -1,4 +1,4 @@
-<h1>Reelly.io</h1>
+<h1>BlackPlanet.com - Automation</h1>
 
 <h2>Description</h2>
 In this project, I will walkthrough my responsibilities as a Software QA Engineer for Reelly. Performed functional, UI, smoke and regression testing. Also participated in daily stand-ups and sprint planning using Agile methodologies. Reelly is a web/mobile app that consolidates Dubai developer projects, enabling agents to quickly create personalized property offers and track buyer behavior analytics. Executing test cases and tracking bug issues in Jira were very interesting task to learn as I know that they will be very essential skills towards my career in software quality assurance.
