@@ -2,8 +2,7 @@
 
 <h2>Description</h2>
 In this test automation suite, built with Selenium and Eclipse, justifies the key user interactions on the Login page of the BlackPlanet Social Media webpage. It includes tests for ensuring that the key user does not come across any errors for a new user to create a profile on the Sign Up page as well. Each test ensures the correct page elements are displayed, with browser sessions set up and closed automatically before and after execution
-<img src="https://i.imgur.com/R8pSLW1.png" height="80%" width="80%" alt="Administrator Account"/>
-<img src="https://i.imgur.com/YML9xny.png" height="80%" width="80%" alt="Administrator Account"/>
+<img src="https://i.imgur.com/JxBpLnk.png" height="80%" width="80%" alt="Administrator Account"/>
 <br />
 
 <h2>Concepts</h2>
