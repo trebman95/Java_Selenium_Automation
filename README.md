@@ -10,20 +10,20 @@ In this test automation suite, built with Selenium and Eclipse, justifies the ke
 
 - <b>Functional Testing</b>
 - <b>Usability Testing</b>
-- <b>Regression Testing</b>
-- <b>Smoke Testing</b>
 - <b>API Testing</b>
 - <b>Test Case Design</b>
 - <b>Test Execution</b>
-- <b>Bug Reporting</b>
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Jira</b>
-- <b>Google Docs</b> 
-- <b>TestRail</b> 
-- <b>Chrome DevTools</b>
-- <b>Android Studio</b>
+- <b>Selenium WebDriver 4.25.0</b>
+- <b>Java 11.0.24</b> 
+- <b>TestNG 7.10.2</b>
+- <b>ReportNG 1.1.4</b>
+- <b>Apache POI 5.4.0</b>
+- <b>Google Guice Core Library 7.0.0</b>
+- <b>Maven 3.8.1</b>
+
 
 <h2>Environments Used </h2>
 
