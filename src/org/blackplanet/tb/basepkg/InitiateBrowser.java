@@ -1,7 +1,7 @@
 package org.blackplanet.tb.basepkg;
-
+ 
 import java.time.Duration;
-
+ 
 import org.blackplanet.automation.tb.utilities.ReadPropertiesFile;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,14 +12,13 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+ 
 //import org.testng.annotations.Test;
-
+ 
 public class InitiateBrowser {
 	
 	public WebDriver driver; // Using for other packages
-
+	
 	// Headless options when running in CI (GitHub Actions sets the CI variable automatically)
 	private ChromeOptions chromeOptions() {
 		ChromeOptions options = new ChromeOptions();
@@ -30,14 +29,13 @@ public class InitiateBrowser {
 		return options;
 	}
 	
-
 	@BeforeMethod
 	public void launchBrower() throws Exception{
 		
 		if(ReadPropertiesFile.config("BrowserName").equalsIgnoreCase("Chrome")) {
 		  
-		  WebDriverManager.chromedriver().setup(); // Manages old/new browser or selenium
-		  driver = new ChromeDriver();
+		  // Selenium Manager (built into Selenium 4) finds the matching ChromeDriver automatically
+		  driver = new ChromeDriver(chromeOptions());
 		  
 		} else if (ReadPropertiesFile.config("BrowserName").equalsIgnoreCase("Edge")) {
 		  
@@ -57,7 +55,7 @@ public class InitiateBrowser {
 			  
 		}  else {
 			
-		  driver = new ChromeDriver();	
+		  driver = new ChromeDriver(chromeOptions());	
 		}
 		
 		driver.get(ReadPropertiesFile.config("ApplicationURL")); // Gather the URL
@@ -66,10 +64,12 @@ public class InitiateBrowser {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void closebrowser() {
 	    
-		driver.quit();		
+		if (driver != null) {
+			driver.quit();
+		}
 	}
 	
 	
