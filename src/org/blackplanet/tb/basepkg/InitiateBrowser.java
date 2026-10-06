@@ -19,8 +19,18 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class InitiateBrowser {
 	
 	public WebDriver driver; // Using for other packages
+
+	// Headless options when running in CI (GitHub Actions sets the CI variable automatically)
+	private ChromeOptions chromeOptions() {
+		ChromeOptions options = new ChromeOptions();
+		if (System.getenv("CI") != null) {
+			options.addArguments("--headless=new", "--no-sandbox",
+					"--disable-dev-shm-usage", "--window-size=1920,1080");
+		}
+		return options;
+	}
 	
-	
+
 	@BeforeMethod
 	public void launchBrower() throws Exception{
 		
