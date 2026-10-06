@@ -40,7 +40,6 @@ public class HandlekbMsWi {
 	
 	@Test
 	public void handleFrames() throws Exception {
-		driver = new ChromeDriver();
 		driver.get("https://demoqa.com/frames");
 		
 		System.out.println(driver.findElement(By.xpath("//h1[text()='Frames']")).getText());
@@ -54,7 +53,6 @@ public class HandlekbMsWi {
 	
 	@Test(enabled=true)
 	public void handleAlerts() throws Exception {
-		driver = new ChromeDriver();
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		driver.findElement(By.className("signinbtn")).click();
 
@@ -66,7 +64,6 @@ public class HandlekbMsWi {
 	
 	@Test(enabled=false)
 	public void handleMouse() throws Exception {
-		driver = new ChromeDriver();
 		driver.get("https://www.mphasis.com/home.html");
 		
 		Actions act = new Actions(driver);
@@ -92,7 +89,6 @@ public class HandlekbMsWi {
 	
 	@Test(enabled=false)
 	public void handleKeyboard() throws Exception {
-		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		
 		Actions act = new Actions(driver);
