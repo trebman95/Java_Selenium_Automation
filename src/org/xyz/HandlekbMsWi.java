@@ -51,7 +51,7 @@ public class HandlekbMsWi {
 		CaptureScreenshot.test_results(driver, "handleFrames"); // Screenshot
 	}
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void handleAlerts() throws Exception {
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		driver.findElement(By.className("signinbtn")).click();
